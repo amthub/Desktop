@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>html5</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Programming courses</legend>
+            Name:<input type="text" name="name"><br><br>
+        Course:<select autofocuses required>
+            <optgroup label="Programming">
+            <option value="">none</option>
+            <option value="java" selected>java</option>
+            <option value="python">python</option>
+        </optgroup>
+    <optgroup label="Web designing">
+            <option value="html">html</option>
+            <option value="php" disabled>php</option>
+            <option value="c++">c++</option>
+            <option value="css">css</option>
+        </optgroup>
+        </select><br><br>
+        <select>
+            <option label="html">Html is awesome</option>
+        </select>
+        <input type="submit" value="submit">
+    </fieldset>
+    <h1>Data list</h1>
+    <input type="text" list="programming">
+    <datalist id="programming">
+        <option value="java"></option>
+        <option value="python"></option>
+        <option value="css"></option>
+        <option value="html"></option>
+    </datalist>
+    </form>
+    </body>
+</html>
