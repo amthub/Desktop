@@ -1,0 +1,52 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+.wrapper{
+         border: 5px solid black;
+         margin: 10px 100px;
+}
+
+
+.header{
+       background-color:aquamarine;
+       height:150px;
+}
+
+
+.main-nav{
+         background-color:bisque;
+         height:70px;
+}
+
+
+.container{
+          border: 3px solid red;
+}
+.content{
+    background-color:darkorange;
+    min-height:405px;
+    float:left;
+    width:80%;
+    padding: 20px;
+}
+.right-sidebar{
+    background-color:darkturquoise;
+    width:20%;
+    min-height:405px;
+    float:right;
+}
+.container::after{
+    content:" ";
+    display:block;
+    clear:both;
+    *zoom: 1;
+}
+
+
+.footer{
+       background-color:brown;
+       height:50px;
+}

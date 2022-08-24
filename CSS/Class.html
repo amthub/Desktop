@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>class selector</title>
+        <link rel="stylesheet" href="class.css">  <!-- this can be also used in internal style but not in line style-->
+
+        
+        
+        <style>
+            <!-- this is an example of element specific style class it can be also used in external-->
+            h2.name{color:blue; font-size:40px;}  
+            .algn{text-align:center;}       
+        </style>
+
+    </head>
+
+    <body>
+        <!--Example of two or more class-->
+        <h1 class="amit algn" >I am heading</h1>     <!-- selector class class name=amit-->
+           
+        <p class="amit">I am paragraph1</p>    <!-- selector class class name=amit-->
+        <p>I am paragraph2</p>                 <!-- here class style not applied -->
+
+
+        <h2 class="name">This is heading 2</h2>             <!-- this is example of element specific style class -->
+    </body>
+</html>

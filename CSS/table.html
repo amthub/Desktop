@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table tutorial</title>
+        <style>
+             body{color:blueviolet;}
+             table,td,th{ border: 3px solid blue;}
+             table{border-collapse:collapse;}              /* only works in table. do not only apply td,th or tr. */
+             table{border-spacing: 10px 5px;}              /* works only when border collapse ia not used     */
+             caption{caption-side: top;}
+             empty{empty-cells: hide;}                       /* works only when border collapse ia not used     */
+             table{table-layout: auto;}   
+             table{height:100%; width:100%;}
+             th,td{padding: 30px;}                          /* only used in th and td */
+             table{background-color: blanchedalmond;}                
+        </style>
+    </head>
+    <body>
+        <table align="center">
+
+           <caption>Students details</caption>     <!-- default set for top -->
+
+            <th>Name</th>
+            <th>Roll no</th>
+            <th>Result</th>
+
+            <tr>
+                <td>Rahul</td>
+                <td>101</td>
+                <td>pass</td>
+            </tr>
+            
+            <tr>
+                <td>Ram</td>
+                <td>102</td>
+                <td>Fail</td>
+            </tr>
+
+            <tr>
+                <td>Shyam</td>
+                <td>103</td>
+                <td>pass</td>
+            </tr>
+        </table>
+    </body>
+</html>

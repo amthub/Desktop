@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+    <style>
+        /*    flex-direction   */
+        #container1{
+            border:2px solid black;
+            display:flex;
+            flex-direction: row-reverse;
+         }
+
+         /*      justify-content */           /* works horizontally  */     
+         /*      align-items     */           /* works vertically  */
+         /*      flex-wrap       */
+        #container2{
+            border:2px solid black;
+            display:flex;
+            justify-content: right;
+           /* justify-content:space-between; */
+         }
+        
+        .z{
+            text-align: center;
+            padding:20px;
+            margin:10px;
+            
+        }           
+
+         #a{background-color: red;;}
+
+         #b{background-color: blue;}
+
+         #c{background-color: blueviolet;}
+
+         #d{background-color: brown;}
+
+         #e{background-color: green;}
+
+         h1{text-decoration-line:underline; text-decoration-color: yellow;
+            text-align: center;}
+    </style>
+</head>
+<body>
+    <h1>Flex-direction and justify-content </h1>
+    <div id="container1">
+        <div id="a" class="z">1</div>
+        <div id="b" class="z">2</div>
+        <div id="c" class="z">3</div>
+        <div id="d" class="z">4</div>
+        <div id="e" class="z">5</div>
+    </div>
+    <hr>
+    <div id="container2">
+        <div id="a" class="z">1</div>
+        <div id="b" class="z">2</div>
+        <div id="c" class="z">3</div>
+        <div id="d" class="z">4</div>
+        <div id="e" class="z">5</div>
+    </div>
+</body>
+</html>

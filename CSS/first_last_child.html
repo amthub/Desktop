@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>pseudo class and element tutorial</title>
+    <style>
+        p:first-child {
+            /* first child and last child */
+            color: red;
+        }
+
+        p:last-of-type {
+            /* ex of first-of-type and last-of-type */
+            color: orange;
+        }
+
+        p:nth-child(2),               /* nth child   */
+        p:nth-child(3) {                  /* you can also use :- odd, even, or formula(like 3n+2) */
+            color: blue;
+        }
+
+        p::before{content:"example of pseudo element";}          /* pseudo element also use:- after */
+
+        p::first-letter{color:brown;}                           /* pseudo element */
+
+        p::first-line{background-color: khaki;}               /* pseudo element */
+        
+        p::selection{background-color: yellow;}              /* selection:- jis line ko select krenge uspe aplly hga */
+    </style>
+</head>
+
+<body>
+
+    <p>this is a first child<br>
+       this is the second line</p>
+    <p>second child</p>
+    <p>third child</p>
+    <p>this is the last child</p>
+
+</body>
+
+</html>

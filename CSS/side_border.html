@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>side of border, box shadow, transition effect and text decoration and outline - tutorial</title>
+    <style>
+        body{background-color: red;}
+
+        /* Text decoration */
+        h1{
+            text-decoration-line:underline;
+            text-decoration-style:double;
+            text-decoration-color:rgb(141, 5, 5);
+            text-align: center;
+        }
+
+        /* border shortend also available */
+        /* border-left */
+        #amit1{border-left-style: solid;}
+        #amit1{border-left-width: thick;}
+        #amit{ border-left-color: rgb(18, 117, 56);}
+
+        /* you can also use transparent */        
+        #amit1{padding: 10px;}
+        #amit1{ margin-left: 30%;}
+        #amit1{margin-right:30%;}
+        
+        /* border Right */
+        #amit1{border-right-style: solid;}
+        #amit1{border-right-width: thick;}
+        #amit1{ border-right-color: rgb(4, 116, 24);}
+        #amit1{display: inline-block;}
+        
+        /* border-top */
+        #amit1{border-top: thick solid rgb(4, 116, 24);}
+        
+        /* border-bottom */
+        #amit1{border-bottom: thick solid rgb(4, 116, 24);}
+       
+        /* border-radius */                               /* border-radius: 10px 20px 10px 20px */
+        #amit1 {border-top-left-radius: 10px 20px;}         /* first for horizontal and second is vertical */
+        #amit1{border-bottom-right-radius:10px;}            /* you can also used in image */
+
+        /* image:- border-rdius */
+        img:hover{border-radius:50%;}
+        img{
+            
+            margin-left:30%;
+            margin-right:30%;
+        }
+
+
+        /* Box shadow */
+        #amit1{
+            width:300px;
+            height:200px;
+            background-color:pink;
+            box-shadow:5px 3px 10px  yellow ;
+        }
+
+        /* Outline */
+        #amit1{
+            outline-style: dotted;      /* outline-offset use to make space between border and outline */
+            
+            outline-width: 2px;
+            outline-color:black;
+        }
+
+
+        img:hover{
+            width:300px;
+            height:200px;
+            box-shadow:5px 3px 20px rgb(9, 142, 147), 10px 6px 20px red;
+        }
+        
+
+        /*      T R A N S I T I O N - E F F E C T      */
+        #amit2{
+            width: 100px; height:100px;
+            background-color:blue;
+            margin-left:30%;
+            margin-right:30%;
+        }
+        #amit2:hover{
+                 width:200px;
+                 height:200px;
+                 background-color:blueviolet;
+        }
+        #amit2{
+            transition-property: all;
+            transition-duration:2s;
+            transition-timing-function:ease;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <h1 >side of border and box shadow and transition effect and text decoration - tutorial</h1>
+    <div id="amit1">
+        <p> This is paragraph Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere molestias mollitia enim
+            suscipit magni, explicabo, odit, aperiam asperiores quos quia alias. Reiciendis, expedita assumenda.
+            Repellat soluta explicabo obcaecati vel sint.
+         this is paragraph2
+         this is paragraph3</p>
+    </div><br>
+    <br>
+    <hr>
+    <img src="water conservation (2).jpg">
+    <br>
+     <hr>
+     
+     <div id="amit2">
+
+     </div>
+</body>
+
+</html>

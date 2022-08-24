@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>text tutorial 2</title>
+    <style>
+        p{text-indent:70px;}
+        h1{text-shadow: 2px 2px 5px red;}
+        h2{text-shadow: 2px 2px 5px red, 5px 5px 8px blue;}
+        p{text-transform: capitalize; word-spacing:20px;}
+        h1,h2{text-align:justify; text-align-last:center;}    /* for last line */
+        .sb{vertical-align:super;}    /* Super script */
+        p{word-break:keep-all;}       /* keep all the letter if letter not adjust in same line then it not break the letter, change 
+                                       the line */
+       /*
+
+       example of     "  word wrap  "
+
+       p{word-wramp: break-word}         it break the word
+
+        /*
+
+        example of "white-space" :- 
+        p{white-space: wrap;}    --- if line is very big then it change the line according to the browser
+        
+        use "pre" if you want similar as you written
+        */
+    </style>
+    </head>
+    <body>
+        <h1>I am heading</h1>
+        <h2>I am second heading</h2>
+        <h3>(a+b)<span class="sp">2</span></h3>
+        <p>
+            this is paragrph<br>
+            this is paragrph<br>
+            this is paragrph<br>
+            this is paragrph<br>
+        </p>
+    </body>
+</html>

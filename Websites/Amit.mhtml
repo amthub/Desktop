@@ -1,0 +1,44 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://127.0.0.1:5500/Web%20develeopment%20projects/two%20column%20website/Amit.html
+Subject: Amit
+Date: Tue, 23 Aug 2022 14:38:50 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--RAFBHgXAE6D6iQMope9ufC2dnDa2oVnPgVnMPOwzip----"
+
+
+------MultipartBoundary--RAFBHgXAE6D6iQMope9ufC2dnDa2oVnPgVnMPOwzip----
+Content-Type: text/html
+Content-ID: <frame-CD1589B2E4EBA0B40AB4384D52E0DB51@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.0.1:5500/Web%20develeopment%20projects/two%20column%20website/Amit.html
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-cf547a26-a9f9-411a-8027-30be18cf251a@mhtml.blink" />
+   =20
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <title>Amit</title>
+   =20
+</head>
+<body>
+    <h1>Made by :- <br>
+        Amit</h1>
+<!-- Code injected by live-server -->
+
+</body></html>
+------MultipartBoundary--RAFBHgXAE6D6iQMope9ufC2dnDa2oVnPgVnMPOwzip----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-cf547a26-a9f9-411a-8027-30be18cf251a@mhtml.blink
+
+@charset "utf-8";
+
+body { background-color: cadetblue; }
+
+h1 { text-align: center; font-family: cursive; font-size: 200px; color: whi=
+te; text-shadow: red 10px 10px 15px, rgb(236, 9, 47) 10px 10px 20px; }
+------MultipartBoundary--RAFBHgXAE6D6iQMope9ufC2dnDa2oVnPgVnMPOwzip------
