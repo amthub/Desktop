@@ -1,0 +1,463 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: box
+    
+}
+:root{
+    --primary-color: red;
+}
+
+.nav-bar{
+    /* background-color: rgb(15, 134, 247); */
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 10px;
+}
+.logo{
+    font-family: cursive;
+    font-size: 28px;
+    /* color:rgb(180, 213, 245) */
+    margin-left: 50px;
+    color: white;
+}
+.ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;;
+}
+.nav-bar a{
+   
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.nav-bar a:hover{
+     border-bottom: 4px solid white; 
+    /* background-color: rgb(115, 47, 47); */ 
+    /* border: 1px solid white;
+    background-color: rgb(115, 47, 47); */
+}
+li{
+    margin-right: 20px;
+    margin-top: 5px;
+}
+.more{
+   text-decoration: none;
+   color: black;
+}
+.text{
+   margin: 20px;
+}
+.text h3{
+    font-size: 30px;
+    font-family: cursive;
+    color: white;
+}
+.text p{
+    color: white;
+    margin: 10px 0px 20px 0px;
+    }
+.text a{
+        box-shadow: 1px 1px 2px white, 2px 2px 3px brown;
+        /* display: inline-block; */
+        padding :10px;
+       
+    }
+    
+ .form-case{
+    margin: 50px 0px 0px 20px ;
+    background-color: white ;
+    color: black;
+    /* overflow: visible; */
+    border-radius: 10px;
+    padding: 20px;
+    height: 70% ;
+    width: 25vw ;
+    justify-content: flex-end;
+    position: relative;
+    top: 15%;
+    left: 0%;
+    box-shadow: 2px 2px 3px white, 2px 3px 3px brown; 
+ }
+.form-case h3{
+    font-family: cursive;
+    color: rgb(175, 152, 152);
+    margin-left: 5px;
+}
+.username{
+    margin: 10px 5px 0px 0px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(225, 220, 220);
+    width: 93%;
+    margin-top: 25px;
+    margin-left: 5px;
+}
+.container{
+    background-color: var(--primary-color);
+   
+    position: relative;
+    /* position: absolute; */
+  
+}
+.grid{
+    display: grid;
+    grid-template-columns: 55% 45%;
+    /* grid-template-columns: repeat(2, 1fr); */
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-left: 10px;
+}
+.grid-container{
+    margin-left: 46px;
+   
+}
+.btn{
+    /* width: 20%; */
+    width: 60px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: var(--primary-color);
+    /* background-color: red; */
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px white, 2px 2px 3px brown;
+}
+.btn:hover{
+    /* border-bottom: 3px solid brown; */
+    /* border: 1px solid white; */
+    background-color: rgb(115, 47, 47);
+    /* background-color: transparent; */
+}
+.form{
+    margin-top: 10px;
+}
+ .container::before
+ {
+        content: ' ';
+       position: absolute;
+       height: 80px;
+       bottom: -70px; 
+       /* bottom: 240px; */
+        right: 0; 
+       left: 0;
+       background-color: white;
+       transform: skewY(-2deg);
+} 
+
+
+/* tools */
+.tools{
+    margin: 80px auto 40px;
+    /* overflow-x: auto; */
+    /* border-bottom: 1px solid black; */
+    /* margin: 80px 0px 0px 190px; */
+}
+.tools h3{
+    text-align: center;
+    /* margin-right: 100px; */
+    font-weight: lighter;
+}
+.tool-bar{
+    margin: 30px 0px 0px 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;;
+}
+.tool1{
+    margin: 2px auto;
+    text-align: center;
+}
+.tool1 p{
+   margin-top: 10px;
+   color: brown;
+}
+.tool1 h1{
+   margin-top: 7px;
+   font-weight: lighter;
+}
+
+
+/* Examples */
+.example{
+   margin: 0px 100px;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 20px;
+   
+}
+.example1{
+    background-color: rgb(39, 11, 11);
+    color: red;
+    border-radius: 3px;
+    grid-column: 1/span 2;
+    grid-row: 1/span 2;
+    height: 50%;
+    width: 70%;
+    position: relative;
+    top: 30%;
+    left: 17%
+}
+.example1 .para{
+    position: relative;
+    bottom: 10%;
+    left: 4%;
+   
+}
+.example1 .dot{
+    color: orange;
+    font-size: 60px;
+    /* text-align: left; */
+    position: relative;
+    bottom: 20%;
+    left: 3%;
+
+}
+.example2{
+    background-color: white;
+    padding: 20px;
+    margin: 10px 0px;
+    /* box-shadow: 1px 1px 3px white, 2px 3px 3px brown; */
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+   text-align: center;
+    position: relative;
+    right: 20%;
+    border: 2px solid rgb(214, 212, 212);
+}
+
+
+/* Cloud images */
+  
+.clouds{
+    background-color: var(--primary-color);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px; 
+    /* height: 210px; */
+    height: 32vh;
+}
+img{
+    position: relative;
+    top: 10%;
+    left: 25%;
+    width: 30vw;
+    /* height: 170px; */
+    height: 26vh;
+    border-radius: 50%;
+}
+.cloud-info{
+    text-align: center;
+    position: relative;
+    top: 20%;
+    left: 10%;
+    color:white;
+}
+.cloud-info h1{
+    font-family: cursive;
+    font-weight: lighter;
+    font-size: 30px;
+    
+}
+.cloud-info p{
+   font-weight: lighter;
+
+   padding: 20px;
+}
+.cloud-info a{
+      text-decoration: none;
+      color: white;
+      background-color: rgb(39, 11, 11);
+      padding: 10px;
+      border-radius: 5px;
+}
+.cloud-info a:hover{
+     background-color: brown;
+}
+
+
+/* language */
+.support h1{
+    text-align: center;
+    font-weight: lighter;
+    font-family: cursive;
+    margin: 10px 0px;
+}
+.language{
+     /* display: grid;
+     grid-template-columns: repeat(7, 1fr);
+     /* gap: 10px; */
+     /*margin: 20px 40px; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+     
+     
+}
+.language-name{
+    background-color: white;
+    box-shadow: 0px 1px  10px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    padding: 20px;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+
+    margin: 20px;
+}
+.language-name i{
+    font-size: 80px;
+    margin-top: 5px;;
+}
+
+
+/* footer */
+.footer{
+    background-color: rgb(39, 11, 11);
+    color: white;
+    
+}
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 40px;
+   gap: 10px;
+}
+.column{
+    justify-self: center;
+    align-self: center;
+    font-weight: lighter;
+}
+.column a{
+    text-decoration: none;
+    color: white;
+   
+}
+.column a:hover{
+    color: blue;
+}
+.column ul{
+    list-style: none;
+}
+.column h1{
+    font-family: cursive;
+}
+.column i{
+    margin: 0px 5px;
+    font-size: 20px;
+    
+}
+
+
+
+
+@media(max-width: 450px)
+{
+    body{
+       overflow-x: hidden;
+       max-width: 412px;
+    }
+    .nav-bar{
+       flex-direction: column;
+      
+    }
+    .nav{
+        align-self: flex-start;
+        margin-top: 10px;
+      
+    }
+    .nav :first-child{
+          margin-left: 5px;
+    }
+    .text{
+        margin-left: -30px;
+        text-align:left;
+        
+    }
+    .text p{
+        width: 58%;
+    }
+    .grid-3, .grid, .tool-bar, .clouds, .example{
+         grid-template-columns: 1fr;   
+        
+         
+        }
+        .tool-bar{
+            margin-left: -140px;
+        }
+        .support h1{
+             margin-left: -160px;
+             font-size: 20px;
+        }
+        .clouds{
+            height: 500px;
+           
+           
+        }
+        .container{
+            max-height: 30%;
+        }
+    .grid-3{
+         
+         margin: 15px 0px 15px -160px;
+         
+        }
+        .tools h3{
+            width: 60%;
+            margin-left: 5px;
+        }
+.cloud-info  h1{
+    margin-left: -260px;
+    font-size: 23px;
+    font-weight: bold;
+}
+.cloud-info  p{
+    margin-left: -60px;
+   
+    width: 58%;
+}
+.example1{
+    height: auto;
+    width:auto;
+    margin-left: -120px;
+    margin-right: 100px;
+   
+}
+
+.example2{
+    position: relative;
+    right: 80%;
+   top: 7%;
+}
+
+.amit{
+    margin-left: -280px;
+   
+}
+.clouds img{
+    margin-left: -50px;
+    margin-top: -30px;
+}
+
+    .language{
+        flex-direction: column;
+        margin-left: -150px;
+    }
+}
+.left-margin{
+    margin-left: -800px;
+}
+/* .form{
+    position: relative;
+    
+} */

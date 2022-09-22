@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    /* background-color: red;; */
+}
+.nav-bar{
+    background-color: blue;
+    min-height: 50px;
+    /* border: 2px solid black; */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    /* overflow: scroll; */
+    overflow: auto;
+   
+}
+.elements{
+    padding: 10px;
+   
+}
+.ul{
+    list-style: none;
+    display: flex;
+    
+}
+li{
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+a:hover{
+    color: rgb(17, 146, 227);
+}
+.search-bar{
+    /* line-height: 10px;marg */
+    /* background: linear-gradienr(to bottom right, #B1227A, #429AEE); */
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    
+}
+.btn{
+    background-color: blue;
+    color: rgb(17, 146, 227);
+    padding: 0px 5px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    padding: 5px;
+   
+}
+.text{
+    background-color: rgb(17, 146, 227);
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+.hide{
+    display: none;
+
+}
+.bg{
+    background-color: rgb(17, 146, 227);
+    color: blue;
+}
+.mode{
+   display: none; 
+   /* background-color: rgb(20, 121, 209);  */
+}
+.dark-mode{
+    margin-right: 10px;
+    
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+    /* color: rgb(18, 174, 226); */
+}
+.display{
+    min-width: 10%;
+    border: 2px solid black;
+    height: 600px;
+}
+.display{
+    color: rgb(18, 174, 226);
+}
+.contain-modes{
+    cursor: pointer;
+    color: black;
+}
+.margin{
+    margin: 5px;
+}
+.content{
+    /* background-color: rgb(7, 65, 89); */
+    /* min-width: 90%; */
+}

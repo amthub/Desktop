@@ -1,0 +1,31 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+   /* align-items: center; */
+   justify-content: center;
+   height: 100vw;
+   overflow: hidden;
+   margin: 0px;
+}
+.bg{
+   background: url('Banner.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: absolute;
+   top: 0%;
+   left: 0%;
+   width: 100vw;
+   height: 100vh;
+   z-index: -1;
+   filter: blur(50px);
+}
+.loading{
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+    /* margin-bottom: 280px; */
+   
+}
