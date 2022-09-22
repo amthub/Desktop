@@ -1,0 +1,87 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://127.0.0.1:5500/js%20project/index.html?
+Subject: js project - Todo list
+Date: Sat, 3 Sep 2022 14:07:39 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--N9zSnT4R9m4Jtt5IGO2tJ84zbpBSYa2PCKoxhDXLbX----"
+
+
+------MultipartBoundary--N9zSnT4R9m4Jtt5IGO2tJ84zbpBSYa2PCKoxhDXLbX----
+Content-Type: text/html
+Content-ID: <frame-E5A7BD47162198485CF44D65D2CABE85@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.0.1:5500/js%20project/index.html?
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8">
+   =20
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <title>js project - Todo list</title>
+   =20
+   =20
+<link rel=3D"stylesheet" href=3D"http://127.0.0.1:5500/js%20project/index.c=
+ss?_cacheOverride=3D1662213656907"></head>
+
+<body>
+    <div class=3D"body">
+        <h1>Todo-list</h1>
+
+        <div class=3D"container">
+            <section class=3D"form-todo">
+            <form class=3D"form-search">
+                <div class=3D"input">
+                    <input type=3D"text" class=3D"search-bar" placeholder=
+=3D"Add your schedule">
+                    <button class=3D"todo-btn">Add-todo</button>
+                </div>
+                </form>
+                <div class=3D"list-section">
+                    <ul class=3D"todo">
+                       =20
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </div>
+
+<!-- Code injected by live-server -->
+
+
+</body></html>
+------MultipartBoundary--N9zSnT4R9m4Jtt5IGO2tJ84zbpBSYa2PCKoxhDXLbX----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.0.1:5500/js%20project/index.css?_cacheOverride=1662213656907
+
+@charset "utf-8";
+
+* { margin: 0px; padding: 0px; box-sizing: border-box; }
+
+.body { background-color: rgb(128, 0, 32); min-height: 100vh; width: 100%; =
+}
+
+.body h1 { margin: 0px 0px 0px 650px; padding-top: 10px; color: white; }
+
+.container { width: 1000px; display: flex; justify-content: center; margin:=
+ 30px 0px 20px 220px; min-height: 80vh; padding: 10px 0px 0px; }
+
+.input .search-bar { width: 800px; height: 40px; font-size: 20px; }
+
+.todo-btn { width: 140px; height: 40px; margin-left: 10px; font-size: 20px;=
+ background: rgb(32, 1, 20); color: white; }
+
+li { display: flex; justify-content: space-between; background-color: rgb(5=
+7, 2, 17); color: white; margin-top: 20px; padding: 10px; font-size: 22px; =
+}
+
+ul { list-style: none; }
+
+.list-section ul li { }
+
+.btns { font-size: 18px; font-weight: bold; color: black; padding: 5px; bac=
+kground-color: white; border: none; outline: none; }
+------MultipartBoundary--N9zSnT4R9m4Jtt5IGO2tJ84zbpBSYa2PCKoxhDXLbX------

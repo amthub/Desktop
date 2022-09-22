@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="Dom1.js" defer></script> -->
+    <!-- <script src="dom3.js" defer></script> -->
+    <!-- <script src="events.js" defer></script> -->
+    <script src="mini_project.js" defer></script>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="navbar">
+            <h1>website</h1>
+            <ul>
+                <li class="nav-items"><a href="#">Home</a></li>
+                <li class="nav-items"><a href="#">Todo</a></li>
+                <li class="nav-items"><a href="#">About</a></li>
+            </ul>
+        </nav>
+        <div class="headline">
+            <h2 id="main-heading">Manage your <span style="display:none;">task</span></h2>
+            <button class="btn btn-headline" >Learn More</button>
+        </div>
+    </header>
+
+
+    <section class="section">
+        <h2>Your plan for today ?</h2>
+        <form class="form-todo">
+            <input type="text" placeholder="todo-list" class="form-todo-list">
+            <input type="submit" class="btn submit" placeholder="Add todo" value="Add todo"> <!-- prevent default use to stop page refresh-->
+        </form>
+        <ul class="todo-list">
+            <li>
+            <span class="text">Select your todo list</span>
+            <div class="button">
+            <button class="todo-btn add">Add</button>
+            <button class="todo-btn remove">remove</button>
+            </div>
+            </li>
+        </ul>
+    </section>
+
+
+    <section class="section section-signup">
+        <h2>Sign Up</h2>
+        <form class="signup-form">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">
+            </div>
+            <div class="form-group">
+                <label for="confirmpassword">Confirm Password</label>
+                <input type="password" id="confirmpassword" name="confirmpassword">
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="text" id="phone" name="phone">
+            </div>
+            <div class="form-group">
+                <label for="about">About your self</label>
+                <textarea name="about" id="about" cols="30" rows="10"></textarea>
+            </div>
+            <button type="submit" class="btn signup-button">Submit</button>
+        </form>
+    </section>
+</body>
+
+</html>

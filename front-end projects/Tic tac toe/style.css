@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: rgb(72, 5, 80); */
+    background-color: rgb(6, 97, 49);
+    
+    /* background-color: red;; */
+    color: white;
+    font-family: cursive;
+}
+.header{
+    background-color: rgb(6, 97, 49);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: cursive;
+    padding: 10px 0px;
+}
+.container{
+    /* background-color: rgb(72, 5, 80); */
+    display: flex;
+    justify-content: space-around;
+    
+}
+.game-box{
+  display: grid;
+  grid-template-rows: repeat(3, 10vw);
+  grid-template-columns: repeat(3, 10vw);
+  padding: 10px;
+ 
+  
+  
+}
+.box{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.boxtext{
+   font-size: 8vw;
+   color: black;
+
+   
+}
+.box:hover{
+    background-color: rgb(123, 123, 180);
+}
+.b-top{
+    border-top: 0px;
+}
+.b-bot{
+    border-bottom: 0px;
+}
+.b-left{
+    border-left: 0px;
+}
+.b-right{
+    border-right: 0px;
+}
+.content{
+    text-align: center;
+    padding-top: 20px;
+}
+.btn{
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(157, 6, 157);
+    
+}
+div .info{
+    margin: 10px;
+    color: red;
+    font-size: 20px;
+}
+h2{
+    margin-bottom: 20px;
+    color: black;
+}

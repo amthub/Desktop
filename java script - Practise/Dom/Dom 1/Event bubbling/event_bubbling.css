@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box{
+     padding: 5rem;
+    font-weight: bold;
+    font-size: 2rem;
+    color: white; 
+    min-width:100px; 
+    min-height: 100px;
+    cursor: pointer; 
+}
+.grandparent{
+    background-color: rgb(13, 177, 177);
+}
+.parent{
+    background-color: rgb(11, 50, 221);
+}
+.child{
+    background-color: rgb(21, 5, 100);
+}
